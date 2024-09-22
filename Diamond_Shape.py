@@ -1,6 +1,7 @@
 def print_diamond(n):
-    # Ask the user to input an odd interger, if n is even, print a message and exit the function
+    # Ask the user to input an odd interger
     if n % 2 == 0:
+        # If n is even, print a message and exit the function
         print("Please provide an odd integer.")
         return
 
